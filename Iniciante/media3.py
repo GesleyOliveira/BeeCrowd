@@ -3,12 +3,11 @@
 No caso do aluno estar em exame, leia um valor correspondente à nota do exame obtida pelo aluno. Imprima então a mensagem "Nota do exame: " acompanhada pela nota digitada. Recalcule a média (some a pontuação do exame com a média anteriormente calculada e divida por 2). e imprima a mensagem "Aluno aprovado." (caso a média final seja 5.0 ou mais ) ou "Aluno reprovado.", (caso a média tenha ficado 4.9 ou menos). Para estes dois casos (aprovado ou reprovado após ter pego exame) apresente na última linha uma mensagem "Media final: " seguido da média final para esse aluno."""
 
 notas = input()
-notas = notas.split()
-lista = []
-pesos = [2, 3, 4, 1]
-soma = 0
-for nota in notas:
-    lista.append(float(nota))
-n1 = lista[0:4:1] * [2, 3, 4, 1]
+notas = notas.split(" ")
 
-print(n1)
+soma = 0
+
+for i in notas:
+    
+print(notas)
+
